@@ -17,7 +17,6 @@
                     $this->price = $price;
                 }
                 public function show_price (int $price) {
-                    $this->price = $price;
                     echo $this->price . '円<br>';
                 }
             }
@@ -32,7 +31,6 @@
                     $this->weight = $weight;
                 }
                 public function show_height (int $height) {
-                    $this->height = $height;
                     echo $this->height . 'cm<br>';
                 }
             }
