@@ -16,7 +16,7 @@
                     $this->name = $name;
                     $this->price = $price;
                 }
-                public function show_price (int $price) {
+                public function show_price () {
                     echo $this->price . '円<br>';
                 }
             }
@@ -30,7 +30,7 @@
                     $this->height = $height;
                     $this->weight = $weight;
                 }
-                public function show_height (int $height) {
+                public function show_height () {
                     echo $this->height . 'cm<br>';
                 }
             }
@@ -41,8 +41,8 @@
             $dog = new Animal('イヌ', 70, 10);
             print_r($dog);
             echo '<br>';
-            $eggtart->show_price(300);
-            $dog->show_height(70);
+            $eggtart->show_price();
+            $dog->show_height();
             ?>
         </p>
     </body>
